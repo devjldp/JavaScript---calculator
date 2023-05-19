@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Calculator</h1>
+    <header class="text-center mt-5 mb-5">
+        <h1 >Calculator</h1>
     </header>
 
     <section id="console">
@@ -19,10 +19,10 @@
     </section>
     <section id="calculator">
         <div class="row--calculator" id="row-1">
-            <div class="btn btn--gray inline-block" data-type="clean">C</div>
-            <div class="btn btn--gray operator inline-block" data-type="division">/</div>
-            <div class="btn btn--gray operator inline-block" data-type="multiply">*</div>
-            <div class="btn btn--gray operator inline-block" data-type="substract">-</div>
+            <div class="btn btn--gray inline-block" data-type="clean" id="clear">C</div>
+            <div class="btn btn--gray operator inline-block" data-type="division" id="division">/</div>
+            <div class="btn btn--gray operator inline-block" data-type="multiply" id="multiply">*</div>
+            <div class="btn btn--gray operator inline-block" data-type="substract" id="substract">-</div>
         </div>
         <div class="row--calculator" id="row-2">
             <div class="btn btn--gray number inline-block" data-type="number">7</div>
@@ -41,8 +41,9 @@
             <div class="btn btn--gray number inline-block" data-type="number">3</div>
         </div>
         <div  class="row--calculator" id="row-5">
+            
             <div class="btn btn--gray number inline-block" data-type="number">0</div>
-            <div class="btn btn--gray number inline-block" data-type="number-decimal">.</div>
+            <div class="btn btn--gray number inline-block" data-type="number-decimal" id="float">.</div>
             <div class="btn btn--gray number inline-block" data-type="equal">=</div>
         </div>
     </section>

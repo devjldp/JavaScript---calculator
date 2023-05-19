@@ -24,6 +24,31 @@
     margin: 0 auto;
     background-color: #c0bcbc;
 }
+
+/* special padding */
+#float{
+    padding-right: 17px;
+}
+
+#clear{
+    padding-right: 11px;
+}
+#division{
+    padding-right: 14px;
+}
+
+#multiply{
+    padding-right: 15px;
+}
+#substract{
+    padding-left: 16px;
+}
+
+
+
+
+
+
 /* buttons 
 ------------------------*/
 
