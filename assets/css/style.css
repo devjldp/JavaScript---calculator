@@ -1,0 +1,41 @@
+
+
+.inline-block{
+    display: inline;
+}
+
+/* margins 
+--------------------------- */
+.row--calculator {
+    margin:10px 5px;
+}
+
+#console{
+    border: 1px solid #000000;
+    background-color: rgb(191, 231, 154);
+    width: 20%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+#calculator {
+    border: 1px solid #000000;
+    width: 20%;
+    margin: 0 auto;
+    background-color: #c0bcbc;
+}
+/* buttons 
+------------------------*/
+
+.btn--gray{
+    border: solid 1px black;
+    background-color: rgb(53, 52, 52);
+    color: #fafafa;
+    margin-left: 20px;
+    width: 30px;
+}
+
+.btn--gray:hover {
+    border: solid 1px black;
+    background-color: rgb(191, 231, 154);
+}
