@@ -39,3 +39,13 @@
     border: solid 1px black;
     background-color: rgb(191, 231, 154);
 }
+
+@media screen and (max-width:600px){
+    #console{
+        width: 80%;
+    }
+    
+    #calculator {
+        width: 80%;
+    }
+}
